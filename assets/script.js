@@ -33,14 +33,14 @@ jQuery("#carousel").owlCarousel({
     }
 });
 let images = document.querySelectorAll(".itm");
-if (screen.availWidth>568){
+while (!screen.availWidth > 568) {
     alert("working only on small screens")
 }
 document.addEventListener('scroll', (e) => {
 
 
         for (let z = 0; z < images.length; z++) {
-            images[z].style.backgroundImage = "url('assets/images/"+z+".jpg')";
+            images[z].style.backgroundImage = "url('assets/images/" + z + ".jpg')";
         }
     }
 )
