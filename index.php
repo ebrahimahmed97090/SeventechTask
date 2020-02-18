@@ -226,6 +226,7 @@
     <div class="tab-pane fade" id="searcher" role="tabpanel" aria-labelledby="searcher-tab">...</div>
 
 </div>
+<button type="button" class="btn btn-success fxd"><i class="far fa-plus-circle"></i> اضف اعلانك مجانا</button>
 
 
 <script src="assets/frameworks/fontawesome-pro-5.11.2-web/js/all.min.js"></script>
