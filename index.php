@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/frameworks/fontawesome-pro-5.11.2-web/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
 
-    <title>Title</title>
+    <title>SevenTechTask</title>
 </head>
 <body>
 
