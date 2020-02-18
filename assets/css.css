@@ -1,12 +1,14 @@
 @font-face {
     font-family: 'Cairo';
-    src: url('Cairo-Light.eot')
-    format('light');
+    src: url('Cairo-Light.eot') format('light');
+
 }
+
 * {
     font-family: Cairo;
     direction: rtl;
 }
+
 
 .dirltr {
     direction: ltr;
@@ -117,7 +119,6 @@
 }
 
 
-
 .srshbtn {
     border: none;
     position: absolute;
@@ -217,12 +218,41 @@
 .navbar-light .navbar-toggler {
     border-color: transparent;
 }
+
 .fxd {
 
-     position: fixed;
-     bottom: 10px;
-     right: 34%;
-     border-radius: 22px;
-     z-index: 7777;
+    position: fixed;
+    bottom: 10px;
+    right: 34%;
+    border-radius: 22px;
+    background-color: #008b8c !important;
+    z-index: 7777;
 
- }
+}
+
+.drp {
+    background: none !important;
+    border: none !important;
+    top: -54px !important;
+    position: relative !important;
+    color: black !important;
+    right: 265px !important;
+}
+
+.drp a {
+    background: transparent !important;
+    color: black !important;
+    border: none !important;
+}
+
+.ico {
+    border-radius: 0 22px 22px 0 !important;
+    background: white;
+    border: none;
+
+}
+
+.npt {
+    border-radius: 22px 0 0 22px !important;
+    border: none;
+}

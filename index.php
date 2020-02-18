@@ -35,9 +35,28 @@
 <div class="container nbr">
     <div class="row">
         <div class="col">
-            <form class=" form-inline my-2 my-lg-0">
-                <input class="srsh form-control mr-sm-2" type="search" placeholder="بحث" aria-label="Search">
 
+            <form class=" form-inline my-2 my-lg-0">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text ico" id="basic-addon1"><i class="fad fa-microphone"></i></span>
+                    </div>
+                    <input type="text" class="form-control srsh npt" placeholder="ادخل نص البحث" aria-label="Username"
+                           aria-describedby="basic-addon1">
+                </div>
+                <div class="dropdown drp">
+                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                       data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        جميع الاقسام
+                    </a>
+
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
             </form>
         </div>
     </div>
@@ -48,27 +67,27 @@
     <li class="nav-item">
         <a class="nav-link active" id="ad-tab" data-toggle="tab" href="#ad" role="tab" aria-controls="home"
            aria-selected="true"><span class="text-white"><i class="fal fa-bullhorn"></i><p
-                class="wrd">الاعلانات</p></span></a>
+                        class="wrd">الاعلانات</p></span></a>
     </li>
     <li class="nav-item">
         <a class="nav-link" id="dep-tab" data-toggle="tab" href="#dep" role="tab" aria-controls="profile"
            aria-selected="false"><span class="text-white"><i class="fal fa-network-wired"></i><p
-                class="wrd">الاقسام</p></span></a>
+                        class="wrd">الاقسام</p></span></a>
     </li>
     <li class="nav-item">
         <a class="nav-link" id="seller-tab" data-toggle="tab" href="#seller" role="tab" aria-controls="contact"
            aria-selected="false"><span class="text-white"><i class="fal fa-betamax"></i><p
-                class="wrd">التأجير</p></span></a>
+                        class="wrd">التأجير</p></span></a>
     </li>
     <li class="nav-item">
         <a class="nav-link" id="stores-tab" data-toggle="tab" href="#stores" role="tab" aria-controls="contact"
            aria-selected="false"><span class="text-white"><i class="fal fa-store-alt"></i><p
-                class="wrd">المتاجر</p></span></a>
+                        class="wrd">المتاجر</p></span></a>
     </li>
     <li class="nav-item">
         <a class="nav-link" id="searcher-tab" data-toggle="tab" href="#searcher" role="tab" aria-controls="contact"
            aria-selected="false"><span class="text-white"><i class="fal fa-1x fa-lightbulb-on"></i><p
-                class="wrd">الباحث الذكي</p></span></a>
+                        class="wrd">الباحث الذكي</p></span></a>
     </li>
 </ul>
 
@@ -97,7 +116,7 @@
         <div class="container cntntr">
             <div class="row tbrw">
                 <div class="col sell"><span><i class="fa-2x fal fa-home-lg"></i></span><h5 class="d-inline-block">عقارات
-                    للبيع</h5>
+                        للبيع</h5>
                 </div>
                 <div class="col">
                     <button type="button" class="btn shwall btn-success">عرض الجميع</button>
@@ -128,7 +147,7 @@
         <div class="container cntntr">
             <div class="row tbrw cars">
                 <div class="col sell"><span><i class="fal fa-2x fa-car"></i></span><h5 class="d-inline-block">سيارات
-                    للبيع</h5>
+                        للبيع</h5>
                 </div>
                 <div class="col">
                     <button type="button" class="btn shwall btn-success">عرض الجميع</button>
@@ -159,7 +178,7 @@
         <div class="container cntntr ele">
             <div class="row tbrw">
                 <div class="col sell"><span><i class="fas fa-desktop fa-2x"></i></span><h5 class="d-inline-block">اجهزة
-                    الكترونية</h5>
+                        الكترونية</h5>
                 </div>
                 <div class="col">
                     <button type="button" class="btn shwall btn-success">عرض الجميع</button>
@@ -190,7 +209,7 @@
         <div class="container cntntr">
             <div class="row tbrw">
                 <div class="col sell"><span><i class="far fa-2x fa-cogs"></i></span><h5 class="d-inline-block">خدمات
-                    عامة</h5>
+                        عامة</h5>
                 </div>
                 <div class="col">
                     <button type="button" class="btn shwall btn-success">عرض الجميع</button>

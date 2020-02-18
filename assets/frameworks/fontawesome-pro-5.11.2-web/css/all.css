@@ -15936,3 +15936,11 @@
     font-family: "Font Awesome 5 Pro";
     font-weight: 900
 }
+
+textarea, input {
+    padding:10px;
+    font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
