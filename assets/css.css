@@ -1,0 +1,213 @@
+* {
+    direction: rtl;
+}
+
+.dirltr {
+    direction: ltr;
+}
+
+.srsh {
+
+    background: url(../assets/frameworks/fontawesome-pro-5.11.2-web/svgs/regular/search.svg) no-repeat scroll 7px 7px white;
+    background-size: 25px;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 25px;
+
+}
+
+.bgdad {
+    DISPLAY: INLINE-BLOCK;
+    font-size: 20px;
+    MARGIN: 0 5px 0px 0;
+}
+
+.nbrls li {
+    height: 61px;
+}
+
+.nbrls {
+    height: 70px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrd {
+    margin: 0 -7px !important;
+    font-size: 12px;
+}
+
+.nbrls li a {
+    text-align: center;
+}
+
+.nav-link.active {
+    border: none !important;
+    border-bottom: solid !important;
+    border-color: white !important;
+    margin-bottom: 7px !important;
+    background-color: #0d9394 !important;
+    height: 61px !important;
+}
+
+.logoo {
+    margin: 0 auto;
+}
+
+.nbr {
+    background-color: #0d9394 !important;
+}
+
+.cntsp {
+    background-color: white;
+    height: 200px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.tbrw {
+    background-color: white;
+    margin-bottom: 10px;
+
+}
+
+.itmcnt {
+    height: 90%;
+    width: 50%;
+    display: inline-block;
+}
+
+.itmcnt div:nth-child(2) {
+    background-color: #008b8c;
+    border-radius: 25px;
+    height: 16%;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+
+.itmcnt div:nth-child(2) p {
+    padding-top: 2px;
+}
+
+.itm {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 7px;
+    font-size: 18px;
+    color: white;
+    -webkit-box-shadow: inset 0px -17px 28px -2px #000000;
+    box-shadow: inset 0px -17px 28px -2px #000000;
+    background-size: cover;
+}
+
+.itm p {
+    margin: 0;
+}
+
+
+
+.srshbtn {
+    border: none;
+    position: absolute;
+    left: 5px;
+    top: 57px;
+}
+
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.owl-nav button.owl-prev {
+    left: 0;
+}
+
+.owl-nav button.owl-next {
+    right: 0;
+}
+
+.owl-dots {
+    text-align: center;
+    padding-top: 15px;
+    margin-top: -39px;
+    z-index: 99;
+    position: relative;
+}
+
+.owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+}
+
+.owl-dots button.owl-dot.active {
+    background-color: #000;
+}
+
+.owl-dots button.owl-dot:focus {
+    outline: none;
+}
+
+
+.owl-nav button:focus {
+    outline: none;
+}
+
+.shwall {
+    background: transparent;
+    border-radius: 25px;
+    width: 128px;
+    color: #008b8c;
+    border: solid 2px #008b8c;
+}
+
+
+.cntntr {
+    height: 200px;
+    overflow: hidden;
+    margin: 15px 0;
+}
+
+.sell {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sell span {
+    height: 20px;
+}
+
+.sell h5 {
+    height: 26px;
+    margin: 0;
+}
+
+@media (max-width: 320px) {
+    .sell h5 {
+        font-size: 15px;
+        height: 15px;
+    }
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("images/bars.svg");
+
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+}
