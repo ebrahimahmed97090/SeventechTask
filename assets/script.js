@@ -34,12 +34,9 @@ jQuery("#carousel").owlCarousel({
 });
 let images = document.querySelectorAll(".itm");
 
-let screenln = screen.availWidth;
-screenln.addEventListener('change', (e) => {
-    if (screenln > 568) {
-        alert("screen width must be less than 568 and yours is" + screenln)
-    }
-});
+if (screen.availWidth > 565) {
+    alert("working on small screens only")
+}
 
 document.addEventListener('scroll', (e) => {
 
