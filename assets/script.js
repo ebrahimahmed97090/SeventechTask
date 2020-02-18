@@ -33,9 +33,10 @@ jQuery("#carousel").owlCarousel({
     }
 });
 let images = document.querySelectorAll(".itm");
-while (screen.availWidth > 568) {
+/*while (screen.availWidth > 568) {
     alert("working only on small screens")
-}
+}*/
+console.log(screen.availWidth)
 document.addEventListener('scroll', (e) => {
 
 
