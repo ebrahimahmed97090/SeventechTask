@@ -41,22 +41,24 @@
                     <div class="input-group-prepend">
                         <span class="input-group-text ico" id="basic-addon1"><i class="fad fa-microphone"></i></span>
                     </div>
+
                     <input type="text" class="form-control srsh npt" placeholder="ادخل نص البحث" aria-label="Username"
                            aria-describedby="basic-addon1">
-                </div>
-                <div class="dropdown drp">
-                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                       data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false">
-                        جميع الاقسام
-                    </a>
+                    <div class="dropdown drp">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                           data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">
+                            جميع الاقسام
+                        </a>
 
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
                     </div>
                 </div>
+
             </form>
         </div>
     </div>
@@ -245,7 +247,8 @@
     <div class="tab-pane fade" id="searcher" role="tabpanel" aria-labelledby="searcher-tab">...</div>
 
 </div>
-<button type="button" class="btn btn-success fxd"><i class="far fa-plus-circle"></i> اضف اعلانك مجانا</button>
+<div class="d-flex fxd"><button type="button" class="btn btn-success "><i class="far fa-plus-circle"></i> اضف اعلانك مجانا</button></div>
+
 
 
 <script src="assets/frameworks/fontawesome-pro-5.11.2-web/js/all.min.js"></script>

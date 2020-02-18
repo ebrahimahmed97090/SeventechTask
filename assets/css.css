@@ -220,29 +220,36 @@
 }
 
 .fxd {
-
     position: fixed;
     bottom: 10px;
-    right: 34%;
     border-radius: 22px;
-    background-color: #008b8c !important;
+    background-color: transparent;
+    justify-content: space-around;
+    width: 100%;
     z-index: 7777;
 
+}
+
+.fxd button {
+    background-color: #008b8c!important;
+    border-radius: 22px!important;
 }
 
 .drp {
     background: none !important;
     border: none !important;
-    top: -54px !important;
-    position: relative !important;
+    position: absolute;
+    left: 7%;
+
     color: black !important;
-    right: 265px !important;
+
 }
 
 .drp a {
-    background: transparent !important;
+
     color: black !important;
     border: none !important;
+    background-color: transparent!important;
 }
 
 .ico {

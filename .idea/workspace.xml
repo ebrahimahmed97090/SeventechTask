@@ -4,7 +4,6 @@
     <list default="true" id="d0575552-c0a1-446d-ac3d-3b27bc6b5eb4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/frameworks/fontawesome-pro-5.11.2-web/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/frameworks/fontawesome-pro-5.11.2-web/css/all.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +67,8 @@
       <workItem from="1582010545645" duration="55000" />
       <workItem from="1582011613635" duration="1216000" />
       <workItem from="1582013560395" duration="4965000" />
-      <workItem from="1582018622251" duration="56000" />
+      <workItem from="1582018622251" duration="773000" />
+      <workItem from="1582031172014" duration="1612000" />
     </task>
     <servers />
   </component>
@@ -84,9 +84,9 @@
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="184" y="11" key="SettingsEditor/0.0.1366.736@0.0.1366.736" timestamp="1582006099743" />
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1582018621967">
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1582031171705">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.736@0.0.1366.736" timestamp="1582018621967" />
+    <state x="379" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.736@0.0.1366.736" timestamp="1582031171705" />
   </component>
 </project>
