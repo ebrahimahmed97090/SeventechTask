@@ -1,27 +1,18 @@
-@font-face {
-    font-family: 'Cairo';
-    src: url('Cairo-Light.eot') format('light');
-
-}
-
 * {
-    font-family: Cairo;
+    font-family: 'Cairo', sans-serif;
     direction: rtl;
 }
-
 
 .dirltr {
     direction: ltr;
 }
 
 .srsh {
-
     background: url(../assets/frameworks/fontawesome-pro-5.11.2-web/svgs/regular/search.svg) no-repeat scroll 7px 7px white;
     background-size: 25px;
     width: 95%;
     margin: 0 auto;
     border-radius: 25px;
-
 }
 
 .bgdad {
@@ -56,7 +47,7 @@
     border-color: white !important;
     margin-bottom: 7px !important;
     background-color: #0d9394 !important;
-    height: 61px !important;
+    height: 72px;
 }
 
 .logoo {
@@ -78,7 +69,6 @@
 .tbrw {
     background-color: white;
     margin-bottom: 10px;
-
 }
 
 .itmcnt {
@@ -117,7 +107,6 @@
 .itm p {
     margin: 0;
 }
-
 
 .srshbtn {
     border: none;
@@ -168,7 +157,6 @@
     outline: none;
 }
 
-
 .owl-nav button:focus {
     outline: none;
 }
@@ -180,7 +168,6 @@
     color: #008b8c;
     border: solid 2px #008b8c;
 }
-
 
 .cntntr {
     height: 200px;
@@ -212,7 +199,6 @@
 
 .navbar-light .navbar-toggler-icon {
     background-image: url("images/bars.svg");
-
 }
 
 .navbar-light .navbar-toggler {
@@ -227,7 +213,6 @@
     justify-content: space-around;
     width: 100%;
     z-index: 7777;
-
 }
 
 .fxd button {
@@ -240,13 +225,10 @@
     border: none !important;
     position: absolute;
     left: 7%;
-
     color: black !important;
-
 }
 
 .drp a {
-
     color: black !important;
     border: none !important;
     background-color: transparent!important;
@@ -256,10 +238,78 @@
     border-radius: 0 22px 22px 0 !important;
     background: white;
     border: none;
-
 }
 
 .npt {
     border-radius: 22px 0 0 22px !important;
     border: none;
+}
+
+@media (min-width: 768px) {
+    .sell h5 {
+        font-size: 15px;
+        height: 15px;
+    }
+    .cntntr {
+        height: 400px;
+        overflow: hidden;
+        margin: 15px 0;
+    }
+    .cntsp {
+        height: 400px;
+    }
+    .itmcnt {
+        height: 100%;
+    }
+    .itm {
+        height: 70%;
+    }
+    .itmcnt div p {
+        font-size: 33px;
+    }
+    .itmcnt div:nth-child(2) p {
+        padding-top: 8px;
+    }
+    .sell h5 {
+        font-size: 25px;
+        height: 33px;
+    }
+    .nav-link>span>svg {
+        font-size: 30px;
+    }
+    .wrd {
+        font-size: 18px;
+    }
+    .nbrls {
+        height: 90px;
+    }
+    .nav-link .active {
+        border: none !important;
+        border-bottom: solid !important;
+        border-color: white !important;
+        margin-bottom: 7px !important;
+        background-color: #0d9394 !important;
+        height: 80 px;
+    }
+    .fxd {
+        height: 50px;
+    }
+    .fxd button {
+        width: 210px;
+        font-size: 20px;
+    }
+    body>div.container-fluid.nbr>div>div>form>div {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .cntntr {
+        height: 500px;
+        overflow: hidden;
+        margin: 15px 0;
+    }
+    .cntsp {
+        height: 480px;
+    }
 }

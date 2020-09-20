@@ -34,16 +34,14 @@ jQuery("#carousel").owlCarousel({
 });
 let images = document.querySelectorAll(".itm");
 
-if (screen.availWidth > 565) {
-    alert("working on small screens only")
+if (screen.availWidth > 1440) {
+    alert("does not supports 4k screens yet")
 }
 
 document.addEventListener('scroll', (e) => {
 
 
-        for (let z = 0; z < images.length; z++) {
-            images[z].style.backgroundImage = "url('assets/images/" + z + ".jpg')";
-        }
+    for (let z = 0; z < images.length; z++) {
+        images[z].style.backgroundImage = "url('assets/images/" + z + ".jpg')";
     }
-)
-
+})
